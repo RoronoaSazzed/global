@@ -1,0 +1,120 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: MINHAZUL ASIF ISLAM
+Email: mia.039@gmail.com
+URL: http://minhazulasif.com/
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+ font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+.logoText{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.btnLogin{
+    border-radius: 0%;
+    background-color: #1abc9c;
+}
+
+.btnLogin:hover{
+    border-radius: 0%;
+    background-color: #16a085;
+}
+
+.divOne{
+    background-color: #ecf0f1;
+}
+
+.navbar-default{
+    background-color: black;
+    opacity: .7;
+    border-color: transparent;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav li a{
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+.navbar-default .navbar-nav .open li a,
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover{
+    color: #33ffff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+
+.navbar-default .navbar-nav li .open a:focus,
+.navbar-default .navbar-nav li .open a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    word-spacing: 2px;
+    background-color: #202830;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+@keyframes btnNav {
+    from {
+        color: white;;
+    }
+    to {
+        color: #ccffcc;
+    }
+}
+
+.divTwo{
+    background-image: url(../images/d2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 650px;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.marginTopDefault{
+    margin-top: 50px;
+}
+
+.button{
+    border-radius: 0;
+    opacity: .7;
+    padding: 10px 20px;
+}
+
+.divThree{
+    background-color: whitesmoke;
+    min-height: 450px;
+    padding-bottom: 30px;
+}
+
+.marginTopContentFromHeader{
+    margin-top: 75px;
+}
+
+.divFour{
+    background-color: black;
+    min-height: 400px;
+    padding-bottom: 35px;
+}
+.divFive{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+.footerDiv{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.icons{
+    padding: 12px;
+    color: whitesmoke;
+}
